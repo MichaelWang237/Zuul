@@ -1,3 +1,6 @@
+//Zuul - Text-based game that has various rooms with items
+//Michael Wang
+//4/4/2021
 #include <iostream>
 #include <iterator>
 #include <vector>
@@ -42,8 +45,7 @@ int main() {//main method
      list[12] = new Room ("You're in Mrs. Profit's room. There's a dissected chicken wing on one of the desks. I wouldn't eat that if I were you.",13,"N",9,"E",14,"Z",0,"Z",0);
      list[13] = new Room ("You're in Mrs. Engle's classroom.",14,"N",10,"E",15,"Z",0,"W",13);
     list[14] = new Room ("You're in Mrs. Railsback's room.",15,"N",11,"Z",0,"Z",0,"W",14);
-
-
+    
     struct items location;
     char input[80];
 
