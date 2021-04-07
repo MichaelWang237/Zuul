@@ -67,7 +67,7 @@ int main() {//main method
             move(list, current);
         }
     }
-    cout << "You are outside! Chipotle?" << endl; //Game Over
+    cout << "You are outside! Now go do something with your life." << endl; //Game Over
     return 0;
 }
 void printItem(Room** list, int current, items location) {//print Items
